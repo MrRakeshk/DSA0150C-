@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{ 
+    float n;
+	cout<<"enter n";
+	cin>>n;
+	int a=n++;
+	int b=n--;
+	int c=a-n;
+	int d=n-b;
+	if(c<d)
+	{
+		cout<<"nearest value is"<<b;
+	}
+	else
+	cout<<"nearest value is"<<a;
+	return 0;
+}
